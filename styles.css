@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link-header {
+    Width: 108px;
+    Height: 29px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #989D9C;
+    margin-left: 29px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 80px;
+    padding: 15px;
+    display: inline-block;
+
+
+}
+
+.button-log-in {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    Width: 87px;
+    Height: 29px;
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    border: none;
+    background: #665AE1;
+    color: #fff;
+    cursor: pointer;
+    margin: 15px 20px 0px 20px;
+
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+    margin: 15px 15px 30px 0;
+    
+
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+    margin: 10px 10px 30px 0;
+    
+
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    size: 24px;
+    line-height: 29.26px;
+    color: #848484;
+    margin: 10px 10px 30px 0;
+
+}
+
+.button-explore {
+    width: 157px;
+    height: 36.02px;
+    font-weight: 700;
+    line-height: 34.13px;
+    size: 28px;
+    color: #000000;
+    width: 239px;
+    height: 64px;
+    background: #ADFF00;
+    border-radius: 50px;
+    box-shadow: 5px 4px 4px 0px #00000040;
+    margin: 50px 15px ;
+    cursor: pointer;
+    border: none;
+
+}
+
+section{
+    display: inline-block;
+}
+
+@media screen and (max-width: 900px){
+
+    *{ 
+        margin: 0;
+        padding: 0;
+
+    }
+
+    
+    header {
+        display: none;
+    }
+
+        .logo-image{
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+            max-width: 90%;
+
+   }
+
+    h1 {
+        width: auto;
+        height: auto;
+        font-size: 50px;
+        line-height: 60.25px;
+        text-align: center;
+        position: static;
+    
+    }
+    p {
+        display: none;    }
+
+    h2 {
+        width: auto;
+        height: auto;
+        font-size: 30px;
+        line-height: 36.57px;
+        text-align: center;
+        position: static;
+        
+        }
+
+        .button-explore {
+            width: 157px;
+            height: 36.02px;
+            font-size: 18px;
+            line-height: 34px;
+            text-align: center;
+             }
+}
