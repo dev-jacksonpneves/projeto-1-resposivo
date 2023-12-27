@@ -18,6 +18,10 @@
 
 }
 
+.link-header:active {
+        opacity: .5;
+}
+
 
 .logo-image {
     width: 568px;
@@ -45,6 +49,10 @@
     cursor: pointer;
     margin: 15px 20px 0px 20px;
 
+}
+
+.button-log-in:active {
+    opacity: 0.8;
 }
 
 h1 {
@@ -98,6 +106,11 @@ p {
     cursor: pointer;
     border: none;
 
+}
+
+.button-explore:active {
+        opacity: 0.8;
+        background: #10c3ff;
 }
 
 section{
